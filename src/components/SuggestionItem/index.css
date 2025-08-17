@@ -1,0 +1,12 @@
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+@media (width>=768px) {
+  li {
+    width: 780px;
+  }
+}
